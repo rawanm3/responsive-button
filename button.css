@@ -1,0 +1,54 @@
+.button{
+display: flex;
+flex-direction: row;  
+padding:5px;
+border: 0;
+border-radius: 40px;
+color:white;
+background-color: #ff4800;
+cursor: pointer;
+text-decoration:none;
+font: 70% sans-serif;
+width: auto;
+height: 48px;
+}
+.deliver-button
+ {
+width: 20%;
+    align-self: center;
+    margin:5px;
+ }
+ .button-deutsch
+ {
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 7.5px;
+    text-decoration:none;
+ } 
+.btn1{
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 768px)
+{.button{
+    max-width: 30%;
+    /*font: 0.65em sans-serif;
+    height: 48px;*/
+    font-size:72%;
+      line-height: 1;
+}}
+
+@media only screen and (max-width: 375px)
+{.button{
+    max-width: 47%;
+    font-size: 53%;
+      line-height: 1;
+}
+.deliver-button{
+    margin: 2.5px;
+}
+}
+  
